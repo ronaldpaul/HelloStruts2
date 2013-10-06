@@ -20,4 +20,10 @@ public class Hello extends ActionSupport {
 		this.name = name;
 	}
 	
+	public void validate(){
+		if (name == null || name.trim().equals("")) {
+			addFieldError("name", "Name is required");
+		}
+	}
+	
 }

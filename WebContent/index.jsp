@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<s:form method="post" name="HelloStruts" action="hello" validate="true">
+<s:form method="post" name="HelloStruts" action="hello">
 <s:textfield name="name" label="Name" size="20" />
 <s:submit />
 </s:form>
