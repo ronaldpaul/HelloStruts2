@@ -1,18 +1,22 @@
 package com.ronald.struts2;
 
-import com.opensymphony.xwork2.util.ValueStack;
-import com.opensymphony.xwork2.ActionContext;
-import com.opensymphony.xwork2.ActionSupport;
-import com.sun.crypto.provider.DESParameters;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 
-import java.util.Map;
-import java.util.HashMap;
-import java.io.File;
-import java.io.IOException;
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.util.ValueStack;
 
 public class HelloStruts extends ActionSupport {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	private String message;
 	
